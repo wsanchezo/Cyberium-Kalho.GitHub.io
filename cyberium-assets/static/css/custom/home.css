@@ -68,7 +68,7 @@
 }
 
 body {
-  padding-top: 236px; /* Ajusta según altura del header */
+  padding-top: 260px; /* Ajusta según altura del header */
 }
 
 /* Header Container */
@@ -215,6 +215,9 @@ header,
   font-size: 38px;
   color: hwb(0 100% 0%);
 }
+
+
+
 
 
 
