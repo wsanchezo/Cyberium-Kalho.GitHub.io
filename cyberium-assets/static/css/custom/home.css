@@ -18,7 +18,7 @@
   right: 0;
   display: flex;
   justify-content: flex-start;
-  gap: 45px; /* Espacio entre puntos */
+  gap: 40px; /* Espacio entre puntos */
   z-index: 10;
 }
 
@@ -37,12 +37,12 @@
   }
   50% {
     box-shadow: 0 0 16px #ffffffaa;
-    transform: scale(1.4);
+    transform: scale(1.5);
   }
 }
 
 .header-carousel .owl-dot.active {
-  animation: glow-dot 2s ease-in-out infinite;
+  animation: glow-dot 3s ease-in-out infinite;
 }
 
 
@@ -68,7 +68,7 @@
 }
 
 body {
-  padding-top: 260px; /* Ajusta según altura del header */
+  padding-top: 220px; /* Ajusta según altura del header */
 }
 
 /* Header Container */
@@ -149,7 +149,7 @@ body {
   }
 
   body {
-    padding-top: 140px;
+    padding-top: 180px;
   }
 }
 
@@ -170,11 +170,11 @@ body {
 
 .carousel-title,
 .carousel-title span {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .carousel-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -186,17 +186,7 @@ header,
 }
 
 /* Cuadro de lista resaltado */
-.list li.squared {
-  border: 2px solid #00aaff;
-  border-radius: 8px;
-  background-color: #0d0e10;
-  color: #ffffff;
-  font-weight: bold;
-  padding: 12px 16px;
-  margin: 20px 0 10px;
-  text-transform: uppercase;
-  box-shadow: 0 0 10px rgba(0, 170, 255, 0.3);
-}
+
 
 /* Títulos de secciones */
 #what-we-do h1,
@@ -215,10 +205,10 @@ header,
   font-size: 38px;
   color: hwb(0 100% 0%);
 }
-
-
-
-
-
-
-
+.home-slider {
+    background-image: url('/cyberium-assets/static/img/global/black-logo5.png');
+    background-position: center; /* Alinea a la izquierda */
+    background-repeat: no-repeat;
+    height: 380px; /* Altura personalizada (ajusta según necesites) */
+    width: 101%; /* Opcional: para que ocupe todo el ancho */
+}
